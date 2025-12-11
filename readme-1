@@ -1,0 +1,49 @@
+🚀 TEMPORIZADOR DE DESPEGUE
+📋 DESCRIPCIÓN
+
+Este proyecto es una aplicación web interactiva que simula una cuenta regresiva para un lanzamiento espacial.
+
+Permite al usuario ingresar un tiempo personalizado y, al llegar a 00:00, activa una animación de despegue y un mensaje de éxito.
+
+⚙️ CÓMO FUNCIONA: LA LÓGICA (setInterval)
+
+El motor principal de este código es la función nativa de JavaScript: setInterval.
+
+INICIO: Al presionar "Play", se activa setInterval.
+
+EJECUCIÓN: El código dentro de la función se repite cada 1000 milisegundos (1 segundo).
+
+ACCIÓN: Resta 1 segundo al tiempo restante (timeLeft--) y actualiza la pantalla.
+
+PARADA: Cuando el tiempo llega a 0, usamos clearInterval para detener el bucle 
+
+✨ CARACTERÍSTICAS PRINCIPALES
+
+📱 DISEÑO 100% RESPONSIVO: Se adapta perfectamente a celulares y computadoras de escritorio.
+
+🔢 TIEMPO PERSONALIZABLE: Input dinámico para cambiar la duración de la cuenta regresiva.
+
+🛑 BLOQUEO AUTOMÁTICO: El input se deshabilita mientras el reloj corre para evitar errores.
+
+🛠️ TECNOLOGÍAS USADAS
+
+HTML5: Estructura semántica.
+
+CSS3: Flexbox, Grid,  Media Queries.
+
+JavaScript (ES6): Lógica del DOM y manejo de tiempo.
+
+🚀 CÓMO USARLO
+
+Descarga el repositorio o los archivos.
+
+Abre el archivo index.html en tu navegador.
+
+Escribe los segundos deseados (o usa los 60 por defecto).
+
+¡Presiona PLAY y espera el despegue!
+
+👨‍💻 AUTOR
+William Delgadillo
+
+🔗 Perfil de GitHub

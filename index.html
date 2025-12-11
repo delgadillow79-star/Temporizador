@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temporizador</title>
     <link rel="stylesheet" href="css/style.css">
+    <title>Temporizador de Despegue</title>
 </head>
 <body>
-    <div class="video-background">
-        <video id="video" src="img/Temporizador2.mp4" muted autoplay loop></video>
-    </div>
-
-    <div class="container" id="timerContainer"> 
-        <div id="counter">
-            <h1>Temporizador</h1>
-            <input type="number" id="timeInput" placeholder="Ingresa los segundos" min="1" value="60" />
-            <p id="time">60 sec</p>
-            <button type="button" id="startButton">Iniciar</button>
+    <div class="container">
+        <div id="timer">01:00</div>
+        <div class="controls">
+            <button id="playBtn">Play</button>
+          
+        </div>
+        <div class="input-container">
+            <label for="customTime">Tiempo (segundos):</label>
+            <input type="number" id="customTime" min="1" value="60">
         </div>
     </div>
-    
+    <div id="message">¡Despegue🚀!</div>
+<script src="script.js"></script>
+
     <footer>
         <p>Desarrollado por: William Delgadillo</p>
         <a href="https://github.com/delgadillow79-star?tab=repositories" target="_blank">GitHub</a>
     </footer>
 
-    <script src="script.js"></script>
 </body>
 </html>
